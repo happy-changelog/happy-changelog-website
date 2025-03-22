@@ -1,11 +1,11 @@
 name: Validate PR Changelog
-      
+
 on:
-pull_request:
+  pull_request:
     types: [opened, edited, synchronize, reopened]
 
 jobs:
-validate:
+  validate:
     uses: happy-changelog/happy-changelog-workflow/.github/workflows/validate-changelog.yml@v1.0.0
     permissions:
       pull-requests: read
