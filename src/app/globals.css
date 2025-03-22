@@ -126,4 +126,3 @@
 .dark .text-sunny-gradient {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-sunny-400 to-coral-400;
 }
-
