@@ -1,0 +1,16 @@
+name: Update Changelog
+
+on:
+push:
+   branches:
+      - main
+
+jobs:
+update:
+   uses: happy-changelog/happy-changelog-workflow/.github/workflows/update-changelog.yml@v1.0.0
+   permissions:
+      contents: write
+   with:
+      changelog-file: CHANGELOG.md
+      enable-npm-version: true
+      target-branch: main
