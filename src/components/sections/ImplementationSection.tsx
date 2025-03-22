@@ -50,14 +50,14 @@ export function ImplementationSection() {
               </li>
               <li>Creating a Git tag for the new version</li>
             </ol>
-            <p className="text-muted-foreground mt-4 flex items-center gap-2">
+            <p className="text-muted-foreground flex items-center gap-2">
               Sample implementations:
             </p>
             <p>
               <span className="inline-flex items-center mr-2">
                 <Link href="https://github.com/happy-changelog/happy-changelog-workflow">
                   <span className="inline-flex items-center hover:text-happy-600 dark:hover:text-happy-300 transition-colors">
-                    <Github className="h-4 w-4 mr-1 text-happy-700 dark:text-happy-400" />
+                    <Github className="h-4 w-4 mr-1 text-happy-700 invert dark:invert-0 dark:text-happy-400" />
                     Available for GitHub Actions
                   </span>
                 </Link>
