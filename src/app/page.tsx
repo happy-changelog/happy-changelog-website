@@ -4,13 +4,14 @@ import {
   GitMerge,
   GitPullRequest,
   Package,
-  Github,
   Zap,
   Check,
-  Gitlab,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+
+import Github from "@/logos/GitHub";
+import GitLab from "@/logos/Gitlab";
 
 export default function Home() {
   return (
@@ -432,7 +433,7 @@ export default function Home() {
                   Available for GitHub Actions
                 </span>
                 <span className="inline-flex items-center ml-2 text-muted-foreground/60">
-                  <Gitlab className="h-4 w-4 mr-1" /> GitLab CI implementation
+                  <GitLab className="h-4 w-4 mr-1" /> GitLab CI implementation
                   coming soon
                 </span>
               </p>
@@ -533,7 +534,7 @@ export default function Home() {
                     </Button>
                   </Link>
                   <p className="text-sm text-muted-foreground italic flex items-center justify-center">
-                    <Gitlab className="mr-2 h-4 w-4" />
+                    <GitLab className="mr-2 h-4 w-4" />
                     GitLab CI/CD implementation coming soon!
                   </p>
                 </div>
@@ -615,7 +616,7 @@ export default function Home() {
                         Implementation
                       </Link>
                       <span className="text-sm inline-flex items-center text-muted-foreground/60">
-                        <Gitlab className="mr-1 h-3 w-3" /> GitLab
+                        <GitLab className="mr-1 h-3 w-3" /> GitLab
                         implementation coming soon
                       </span>
                     </div>

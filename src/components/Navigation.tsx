@@ -1,6 +1,7 @@
-import { Github, Gitlab } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
+import Github from "@/logos/GitHub";
+import GitLab from "@/logos/Gitlab";
 
 export function Navigation() {
   return (
@@ -31,7 +32,7 @@ export function Navigation() {
         GitHub
       </Link>
       <span className="flex items-center gap-1 text-sm font-medium text-muted-foreground/40 cursor-not-allowed">
-        <Gitlab className="h-4 w-4" />
+        <GitLab className="h-4 w-4" />
         GitLab
       </span>
       <ThemeToggle />
