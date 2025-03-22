@@ -17,7 +17,7 @@ export function PersonalSection() {
             </h2>
           </div>
         </div>
-        <div className="mx-auto max-w-3xl">
+        <div className="mx-auto max-w-xl">
           <div className="rounded-lg border bg-white dark:bg-card p-8 shadow-md happy-card">
             <div className="space-y-4">
               <p className="text-lg text-muted-foreground italic">
