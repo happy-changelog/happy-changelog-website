@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
+
 const GitLab = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 32 32"

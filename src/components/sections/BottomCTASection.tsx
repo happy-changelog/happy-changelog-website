@@ -1,7 +1,9 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import Github from "@/logos/GitHub";
 import { ArrowRight, Zap } from "lucide-react";
+import Link from "next/link";
+
+import Github from "@/logos/GitHub";
+
+import { Button } from "@/components/ui/button";
 
 export function BottomCTASection() {
   return (

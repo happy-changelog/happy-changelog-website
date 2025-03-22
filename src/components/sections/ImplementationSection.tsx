@@ -1,8 +1,10 @@
-import GitLab from "@/logos/Gitlab";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import Github from "@/logos/GitHub";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
+
+import Github from "@/logos/GitHub";
+import GitLab from "@/logos/Gitlab";
+
+import { Button } from "@/components/ui/button";
 
 export function ImplementationSection() {
   return (

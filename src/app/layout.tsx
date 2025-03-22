@@ -1,10 +1,11 @@
+import { Sparkles } from "lucide-react";
+import Link from "next/link";
 import type React from "react";
-import "@/app/globals.css";
+
+import { Navigation } from "@/components/Navigation";
 import { ThemeProvider } from "@/components/theme-provider";
 
-import { Sparkles } from "lucide-react";
-import { Navigation } from "@/components/Navigation";
-import Link from "next/link";
+import "@/app/globals.css";
 
 export const metadata = {
   title: "Happy Changelog",

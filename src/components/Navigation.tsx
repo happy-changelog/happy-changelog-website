@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { ThemeToggle } from "./theme-toggle";
+
 import Github from "@/logos/GitHub";
 import GitLab from "@/logos/Gitlab";
+
+import { ThemeToggle } from "./theme-toggle";
 
 export function Navigation() {
   return (

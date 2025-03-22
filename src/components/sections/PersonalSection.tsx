@@ -1,7 +1,8 @@
-import Github from "@/logos/GitHub";
-import GitLab from "@/logos/Gitlab";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+
+import Github from "@/logos/GitHub";
+import GitLab from "@/logos/Gitlab";
 
 export function PersonalSection() {
   return (
