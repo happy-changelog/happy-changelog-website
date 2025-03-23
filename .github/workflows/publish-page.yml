@@ -8,6 +8,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     environment: prod-website
+    env:
+      NEXT_PUBLIC_POSTHOG_KEY: ${{ secrets.NEXT_PUBLIC_POSTHOG_KEY }}
     permissions:
       contents: write
     concurrency:
