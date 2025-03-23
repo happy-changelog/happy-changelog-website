@@ -42,6 +42,8 @@ export function PersonalSection() {
                     <Link
                       href="https://www.npmjs.com/package/changelog-tools"
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
+                      target="_blank"
+                      rel="noopener"
                     >
                       <ArrowRight className="mr-1 h-3 w-3" /> View on npm
                     </Link>
@@ -58,6 +60,8 @@ export function PersonalSection() {
                     <Link
                       href="https://rgembalik.gitlab.io/changelog-browser/"
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
+                      target="_blank"
+                      rel="noopener"
                     >
                       <ArrowRight className="mr-1 h-3 w-3" /> Try it out
                     </Link>
@@ -73,13 +77,19 @@ export function PersonalSection() {
                     <Link
                       href="https://github.com/happy-changelog/happy-changelog-workflow"
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
+                      target="_blank"
+                      rel="noopener"
                     >
                       <Github className="mr-1 h-3 w-3" /> GitHub Implementation
                     </Link>
-                    <span className="text-sm inline-flex items-center text-muted-foreground/60">
-                      <GitLab className="mr-1 h-3 w-3" /> GitLab implementation
-                      coming soon
-                    </span>
+                    <Link
+                      href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+                      className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <GitLab className="mr-1 h-3 w-3" /> GitLab Implementation
+                    </Link>
                   </div>
                 </li>
               </ul>
