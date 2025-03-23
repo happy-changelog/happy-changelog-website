@@ -2,8 +2,11 @@ import { ArrowRight, Zap } from "lucide-react";
 import Link from "next/link";
 
 import Github from "@/logos/GitHub";
+import GitLab from "@/logos/Gitlab";
 
 import { Button } from "@/components/ui/button";
+
+import { implementations } from "@/lib/consts";
 
 export function BottomCTASection() {
   return (
@@ -21,17 +24,24 @@ export function BottomCTASection() {
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-            <Link
-              href="https://github.com/happy-changelog/happy-changelog-workflow"
-              target="_blank"
-              rel="noopener"
-            >
+            <Link href={implementations.GitHub} target="_blank" rel="noopener">
               <Button
                 size="lg"
                 variant="secondary"
                 className="bg-white text-happy-700 hover:bg-white/90 dark:bg-white/90 dark:text-happy-700 dark:hover:bg-white"
               >
                 <Github className="mr-2 h-4 w-4 invert" />
+                Get started today
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+            <Link href={implementations.GitLab} target="_blank" rel="noopener">
+              <Button
+                size="lg"
+                variant="secondary"
+                className="bg-white text-happy-700 hover:bg-white/90 dark:bg-white/90 dark:text-happy-700 dark:hover:bg-white"
+              >
+                <GitLab className="mr-2 h-4 w-4" />
                 Get started today
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

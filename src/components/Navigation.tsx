@@ -3,6 +3,8 @@ import Link from "next/link";
 import Github from "@/logos/GitHub";
 import GitLab from "@/logos/Gitlab";
 
+import { implementations } from "@/lib/consts";
+
 import { ThemeToggle } from "./theme-toggle";
 
 export function Navigation() {
@@ -27,7 +29,7 @@ export function Navigation() {
         Implementation
       </Link>
       <Link
-        href="https://github.com/happy-changelog/happy-changelog-workflow"
+        href={implementations.GitHub}
         target="_blank"
         rel="noopener"
         className="hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-sunny-600"
@@ -36,7 +38,7 @@ export function Navigation() {
         GitHub
       </Link>
       <Link
-        href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+        href={implementations.GitLab}
         target="_blank"
         rel="noopener"
         className="hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-sunny-600"

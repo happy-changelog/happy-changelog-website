@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import type React from "react";
 
@@ -22,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/logo-v0.png" type="image/png" sizes="447x430" />
+      </head>
       <body>
         <PostHogProvider>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
@@ -30,10 +34,19 @@ export default function RootLayout({
                 <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
                   <Link
                     href="."
-                    className="flex gap-2 items-center text-xl font-bold block"
+                    className="flex gap-4 items-center text-xl font-bold block"
                   >
-                    <Sparkles className="h-6 w-6 text-happy-500 animate-pulse-gentle" />
-                    <span className="text-gradient">Happy Changelog</span>
+                    <span className="text-gradient hidden lg:inline">
+                      Happy Changelog
+                    </span>
+
+                    <Image
+                      src="/logo-v0.png"
+                      width={447}
+                      height={430}
+                      alt="Happy Changelog"
+                      className="w-10 h-10"
+                    />
                   </Link>
                   <div className="flex flex-1 items-center justify-end space-x-4">
                     <Navigation />

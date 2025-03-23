@@ -4,6 +4,8 @@ import Link from "next/link";
 import Github from "@/logos/GitHub";
 import GitLab from "@/logos/Gitlab";
 
+import { implementations, projects } from "@/lib/consts";
+
 export function PersonalSection() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-white to-lavender-50 dark:from-background dark:to-background">
@@ -40,7 +42,7 @@ export function PersonalSection() {
                   multiversion consolidation).
                   <div className="mt-1">
                     <Link
-                      href="https://www.npmjs.com/package/changelog-tools"
+                      href={projects.ChangelogTools}
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
                       target="_blank"
                       rel="noopener"
@@ -58,7 +60,7 @@ export function PersonalSection() {
                   version ranges.
                   <div className="mt-1">
                     <Link
-                      href="https://rgembalik.gitlab.io/changelog-browser/"
+                      href={projects.ChangelogBrowser}
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
                       target="_blank"
                       rel="noopener"
@@ -75,7 +77,7 @@ export function PersonalSection() {
                   Changelog workflow that you can adapt for your projects.
                   <div className="mt-1 flex flex-wrap gap-2">
                     <Link
-                      href="https://github.com/happy-changelog/happy-changelog-workflow"
+                      href={implementations.GitHub}
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
                       target="_blank"
                       rel="noopener"
@@ -83,7 +85,7 @@ export function PersonalSection() {
                       <Github className="mr-1 h-3 w-3" /> GitHub Implementation
                     </Link>
                     <Link
-                      href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+                      href={implementations.GitLab}
                       className="text-sm inline-flex items-center text-lavender-600 hover:text-lavender-700 dark:text-lavender-400 dark:hover:text-lavender-300"
                       target="_blank"
                       rel="noopener"

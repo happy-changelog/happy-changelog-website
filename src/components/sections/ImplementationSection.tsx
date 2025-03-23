@@ -6,6 +6,8 @@ import GitLab from "@/logos/Gitlab";
 
 import { Button } from "@/components/ui/button";
 
+import { implementations } from "@/lib/consts";
+
 export function ImplementationSection() {
   return (
     <section
@@ -56,7 +58,7 @@ export function ImplementationSection() {
             <p>
               <span className="inline-flex items-center mr-2">
                 <Link
-                  href="https://github.com/happy-changelog/happy-changelog-workflow"
+                  href={implementations.GitHub}
                   target="_blank"
                   rel="noopener"
                 >
@@ -68,7 +70,7 @@ export function ImplementationSection() {
               </span>
               <span className="inline-flex items-center mr-2">
                 <Link
-                  href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+                  href={implementations.GitLab}
                   target="_blank"
                   rel="noopener"
                 >
@@ -169,7 +171,7 @@ export function ImplementationSection() {
               </ol>
               <div className="pt-4 flex flex-col gap-4">
                 <Link
-                  href="https://github.com/happy-changelog/happy-changelog-workflow"
+                  href={implementations.GitHub}
                   target="_blank"
                   rel="noopener"
                 >
@@ -180,7 +182,7 @@ export function ImplementationSection() {
                   </Button>
                 </Link>
                 <Link
-                  href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+                  href={implementations.GitLab}
                   target="_blank"
                   rel="noopener"
                 >
