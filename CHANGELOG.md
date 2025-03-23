@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.4.0 - 2025-03-23
+### Added
+* Added links to gitlab catalog
+
+### Fixed
+* Fixed nav not being sticky
+
 ## v0.3.4 - 2025-03-23
 ### Changed
 * Fix a at least some of RWD issues
