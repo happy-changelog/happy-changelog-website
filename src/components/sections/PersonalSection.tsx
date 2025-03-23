@@ -82,7 +82,8 @@ export function PersonalSection() {
                       target="_blank"
                       rel="noopener"
                     >
-                      <Github className="mr-1 h-3 w-3" /> GitHub Implementation
+                      <Github className="mr-1 h-3 w-3 invert dark:invert-0" />{" "}
+                      GitHub Implementation
                     </Link>
                     <Link
                       href={implementations.GitLab}

@@ -18,10 +18,15 @@ export function HeroSection() {
                 request descriptions
               </p>
               <p className="max-w-[600px] text-muted-foreground mt-4">
-                Happy Changelog is a free, open workflow that eliminates
-                changelog conflicts by moving changelog entries to PR
-                descriptions. It automates version bumping and release notes
-                generation based on semantic versioning principles.
+                Happy Changelog is a free, open workflow framework that
+                eliminates changelog conflicts by moving changelog entries to PR
+                descriptions. It{" "}
+                <span className="font-medium text-happy-600 dark:text-happy-400">
+                  promotes intelligent sorting and merging
+                </span>{" "}
+                of entries by change type across multiple PRs and versions,
+                enabling automated version bumping and release notes generation
+                based on semantic versioning principles.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -60,6 +65,12 @@ export function HeroSection() {
                 <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
                   <li>Zero changelog merge conflicts</li>
                   <li>Consistent entry format</li>
+                  <li>
+                    <span className="font-medium text-happy-600 dark:text-happy-400">
+                      Enables smart sorting and merging
+                    </span>{" "}
+                    of entries by change&nbsp;type
+                  </li>
                   <li>Automated semantic versioning</li>
                   <li>Integrated release notes</li>
                 </ul>
