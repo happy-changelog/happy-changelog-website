@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.2 - 2025-03-23
+### Fixed
+* `build-and-deploy` job now correctly gets posthog key
+
 ## v0.3.1 - 2025-03-23
 ### Fixed
 * workflow file for deployment
