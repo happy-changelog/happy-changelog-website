@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.0 - 2025-03-23
+### Added
+* Add posthog analytics
+
 ## v0.2.3 - 2025-03-23
 ### Fixed
 * Relative paths on build
