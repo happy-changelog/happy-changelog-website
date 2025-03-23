@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.2 - 2025-03-23
+### Fixed
+* Logo relative path
+
 ## v0.4.1 - 2025-03-23
 ### Added
 * Veeeeeery basic logo
