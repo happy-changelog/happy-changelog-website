@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.1 - 2025-03-23
+### Fixed
+* workflow file for deployment
+
 ## v0.3.0 - 2025-03-23
 ### Added
 * Add posthog analytics
