@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.3 - 2025-03-23
+### Fixed
+* Favicon relative path
+
 ## v0.4.2 - 2025-03-23
 ### Fixed
 * Logo relative path
