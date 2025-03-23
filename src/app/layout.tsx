@@ -41,7 +41,7 @@ export default function RootLayout({
                     </span>
 
                     <Image
-                      src="/logo-v0.png"
+                      src="./logo-v0.png"
                       width={447}
                       height={430}
                       alt="Happy Changelog"
