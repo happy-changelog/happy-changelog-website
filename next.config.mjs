@@ -17,6 +17,7 @@ const nextConfig = {
     unoptimized: true,
   },
   output: "export",
+  assetPrefix: ".", // relative path
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
