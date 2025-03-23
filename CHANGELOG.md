@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.1 - 2025-03-23
+### Added
+* Veeeeeery basic logo
+
 ## v0.4.0 - 2025-03-23
 ### Added
 * Added links to gitlab catalog
