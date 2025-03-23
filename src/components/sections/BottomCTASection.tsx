@@ -21,7 +21,11 @@ export function BottomCTASection() {
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-            <Link href="https://github.com/happy-changelog/happy-changelog-workflow">
+            <Link
+              href="https://github.com/happy-changelog/happy-changelog-workflow"
+              target="_blank"
+              rel="noopener"
+            >
               <Button
                 size="lg"
                 variant="secondary"

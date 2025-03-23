@@ -55,16 +55,28 @@ export function ImplementationSection() {
             </p>
             <p>
               <span className="inline-flex items-center mr-2">
-                <Link href="https://github.com/happy-changelog/happy-changelog-workflow">
+                <Link
+                  href="https://github.com/happy-changelog/happy-changelog-workflow"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <span className="inline-flex items-center hover:text-happy-600 dark:hover:text-happy-300 transition-colors">
                     <Github className="h-4 w-4 mr-1 text-happy-700 invert dark:invert-0 dark:text-happy-400" />
                     Available for GitHub Actions
                   </span>
                 </Link>
               </span>
-              <span className="inline-flex items-center text-muted-foreground/60">
-                <GitLab className="h-4 w-4 mr-1" /> GitLab CI implementation
-                coming soon
+              <span className="inline-flex items-center mr-2">
+                <Link
+                  href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span className="inline-flex items-center hover:text-happy-600 dark:hover:text-happy-300 transition-colors">
+                    <GitLab className="h-4 w-4 mr-1" />
+                    Available in GitLab CI Catalog
+                  </span>
+                </Link>
               </span>
             </p>
           </div>
@@ -156,17 +168,28 @@ export function ImplementationSection() {
                 <li>Implement release note generation for your platform</li>
               </ol>
               <div className="pt-4 flex flex-col gap-4">
-                <Link href="https://github.com/happy-changelog/happy-changelog-workflow">
+                <Link
+                  href="https://github.com/happy-changelog/happy-changelog-workflow"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <Button className="bg-gradient-to-r from-happy-500 to-lavender-500 hover:from-happy-600 hover:to-lavender-600 transition-all duration-300">
                     <Github className="mr-2 h-4 w-4" />
                     View GitHub Implementation
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
-                <p className="text-sm text-muted-foreground italic flex items-center justify-center">
-                  <GitLab className="mr-2 h-4 w-4" />
-                  GitLab CI/CD implementation coming soon!
-                </p>
+                <Link
+                  href="https://gitlab.com/explore/catalog/happy-changelog/happy-changelog-gitlab-ci"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Button className="bg-gradient-to-r from-happy-500 to-lavender-500 hover:from-happy-600 hover:to-lavender-600 transition-all duration-300">
+                    <GitLab className="mr-2 h-4 w-4" />
+                    View GitLab Implementation
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
