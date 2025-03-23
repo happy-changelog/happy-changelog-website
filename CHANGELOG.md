@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.3 - 2025-03-23
+### FIxed
+* Posthog config now correctly uses `https://eu.i.posthog.com` by default
+
 ## v0.3.2 - 2025-03-23
 ### Fixed
 * `build-and-deploy` job now correctly gets posthog key
