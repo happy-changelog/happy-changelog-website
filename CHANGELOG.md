@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.4 - 2025-03-23
+### Changed
+* Fix a at least some of RWD issues
+
 ## v0.3.3 - 2025-03-23
 ### FIxed
 * Posthog config now correctly uses `https://eu.i.posthog.com` by default
