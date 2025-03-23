@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.3 - 2025-03-23
+### Fixed
+* Relative paths on build
+
 ## v0.2.2 - 2025-03-23
 ### Fixed
 * Publishing job now should have correct write permissions
