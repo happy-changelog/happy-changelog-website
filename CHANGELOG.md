@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.1 - 2025-03-23
+### Changed
+* debug release
+
 ## v0.2.0 - 2025-03-23
 ### Added
 * `gh-pages` build
