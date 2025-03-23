@@ -25,7 +25,7 @@ export default function RootLayout({
       <body>
         <PostHogProvider>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-            <div className="flex min-h-screen flex-col">
+            <div className="flex min-h-screen flex-col max-w-screen overflow-x-hidden">
               <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
                   <Link
