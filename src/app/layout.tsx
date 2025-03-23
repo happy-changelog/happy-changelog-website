@@ -24,7 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <head>
-        <link rel="icon" href="/logo-v0.png" type="image/png" sizes="447x430" />
+        <link
+          rel="icon"
+          href="./logo-v0.png"
+          type="image/png"
+          sizes="447x430"
+        />
       </head>
       <body>
         <PostHogProvider>
