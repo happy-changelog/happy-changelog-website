@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.5.0 - 2025-03-23
+### Added
+* Dedicated section about changelog notes merging
+
 ## v0.4.3 - 2025-03-23
 ### Fixed
 * Favicon relative path
