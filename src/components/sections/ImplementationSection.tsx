@@ -147,6 +147,30 @@ export function ImplementationSection() {
                   /-changelog
                 </p>
               </div>
+              <div className="rounded-md bg-coral-50 dark:bg-coral-900/50 p-4 font-mono text-sm border border-coral-200 dark:border-coral-800">
+                <p className="mb-2 text-coral-800 dark:text-coral-200 font-semibold">
+                  Option 3: Markdown syntax
+                </p>
+                <p className="mb-2 text-coral-800 dark:text-coral-200">
+                  ## Changelog major|minor|patch
+                </p>
+                <p className="mb-2 text-coral-600 dark:text-coral-400">
+                  &lt;!-- Delete sections that are not relevant --&gt;
+                </p>
+                <p className="mb-2 text-coral-800 dark:text-coral-200">
+                  ### Added
+                </p>
+                <p className="mb-2 text-coral-900 dark:text-coral-100">- </p>
+                <p className="mb-2 text-coral-800 dark:text-coral-200">
+                  ### Changed
+                </p>
+                <p className="mb-2 text-coral-900 dark:text-coral-100">- </p>
+                <p className="mb-2 text-coral-800 dark:text-coral-200">
+                  ### Fixed
+                </p>
+                <p className="mb-2 text-coral-900 dark:text-coral-100">- </p>
+                <p className="mb-2 text-coral-800 dark:text-coral-200">---</p>
+              </div>
             </div>
           </div>
         </div>

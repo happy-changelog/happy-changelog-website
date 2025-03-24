@@ -69,14 +69,14 @@ export function WorkflowDescription() {
             </div>
           </div>
         </div>
-        <div className="mx-auto max-w-3xl mt-8">
+        <div className="mx-auto max-w-5xl mt-8">
           <div className="rounded-lg border bg-card p-8 shadow-md lavender-card">
             <div className="space-y-6">
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-lavender-700 dark:text-lavender-300">
                   Example PR Description Formats
                 </h3>
-                <div className="grid gap-4 md:grid-cols-2">
+                <div className="grid gap-4 md:grid-cols-3">
                   <div className="space-y-2">
                     <h4 className="font-medium text-lavender-600 dark:text-lavender-400">
                       Format 1: Details Element
@@ -133,6 +133,34 @@ export function WorkflowDescription() {
                       </p>
                       <p className="mt-2 font-semibold text-lavender-800 dark:text-lavender-200">
                         /-changelog
+                      </p>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="font-medium text-lavender-600 dark:text-lavender-400">
+                      Format 3: Markdown Syntax
+                    </h4>
+                    <div className="rounded-md bg-lavender-50 dark:bg-lavender-900/50 p-4 font-mono text-sm border border-lavender-200 dark:border-lavender-800">
+                      <p className="mb-2 font-semibold text-lavender-800 dark:text-lavender-200">
+                        ## Changelog minor
+                      </p>
+                      <p className="mb-2 font-semibold text-lavender-700 dark:text-lavender-300">
+                        ### Added
+                      </p>
+                      <p className="mb-2 text-lavender-900 dark:text-lavender-100">
+                        - Dark mode support to the dashboard
+                      </p>
+                      <p className="mb-2 font-semibold text-lavender-700 dark:text-lavender-300">
+                        ### Fixed
+                      </p>
+                      <p className="mb-1 text-lavender-900 dark:text-lavender-100">
+                        - Alignment issues in mobile navigation
+                      </p>
+                      <p className="text-lavender-900 dark:text-lavender-100">
+                        - Documentation for API endpoints
+                      </p>
+                      <p className="mt-2 font-semibold text-lavender-800 dark:text-lavender-200">
+                        ---
                       </p>
                     </div>
                   </div>

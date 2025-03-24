@@ -6,7 +6,7 @@ on:
 
 jobs:
   validate:
-    uses: happy-changelog/happy-changelog-workflow/.github/workflows/validate-changelog.yml@v1.2.0
+    uses: happy-changelog/happy-changelog-workflow/.github/workflows/validate-changelog.yml@v1.3.0
     permissions:
       pull-requests: read
       contents: read

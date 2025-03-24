@@ -6,7 +6,7 @@ on:
 
 jobs:
   release:
-    uses: happy-changelog/happy-changelog-workflow/.github/workflows/edit-release.yml@v1.2.0
+    uses: happy-changelog/happy-changelog-workflow/.github/workflows/edit-release.yml@v1.3.0
     permissions:
       contents: write
     with:
