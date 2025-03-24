@@ -1,5 +1,6 @@
 # Changelog
 
+## v0.6.0 - 2025-03-24
 ## v0.5.0 - 2025-03-23
 ### Added
 * Dedicated section about changelog notes merging
