@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.6.0 - 2025-03-24
+### Added
+* Inform users about third format - `Changelog` markdown header and horizontal line
+
 ## v0.5.0 - 2025-03-23
 ### Added
 * Dedicated section about changelog notes merging
