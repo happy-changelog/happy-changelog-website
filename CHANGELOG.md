@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.7.1 - 2025-03-31
+### Fixed
+* Improved styling for upcoming features section
+
 ## v0.7.0 - 2025-03-31
 ### Added
 * Website now mentions plan to implement prereleases
