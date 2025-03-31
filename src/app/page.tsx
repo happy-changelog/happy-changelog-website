@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { ImplementationSection } from "@/components/sections/ImplementationSection";
 import { PersonalSection } from "@/components/sections/PersonalSection";
 import { SmartMergingSection } from "@/components/sections/SmartMergingSection";
+import { UpcomingFeatures } from "@/components/sections/UpcomingFeatures";
 import { WorkflowDescription } from "@/components/sections/WorkflowDescription";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <SmartMergingSection />
       <BenefitsSection />
       <ImplementationSection />
+      <UpcomingFeatures />
       <PersonalSection />
       <BottomCTASection />
     </>
