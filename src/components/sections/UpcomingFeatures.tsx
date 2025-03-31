@@ -118,7 +118,7 @@ export function UpcomingFeatures() {
                   help implement these features, please visit the GitHub
                   repository.
                 </p>
-                <p>
+                <p className="text-center text-muted-foreground mt-2">
                   Feel free to open issues or submit pull requests. Your
                   feedback and contributions are invaluable!
                 </p>
@@ -128,7 +128,7 @@ export function UpcomingFeatures() {
                       variant="outline"
                       className="border-sunny-300 dark:border-sunny-700 hover:bg-sunny-50 dark:hover:bg-sunny-900/50"
                     >
-                      <Github className="mr-2 h-4 w-4" />
+                      <Github className="mr-2 h-4 w-4 invert dark:invert-0" />
                       Contribute to the project
                     </Button>
                   </Link>
