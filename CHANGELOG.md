@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.7.0 - 2025-03-31
+### Added
+* Website now mentions plan to implement prereleases
+
 ## v0.6.0 - 2025-03-24
 ### Added
 * Inform users about third format - `Changelog` markdown header and horizontal line
