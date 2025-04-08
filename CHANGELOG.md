@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.7.3 - 2025-04-08
+### Changed
+* Dependency cleanup - removed unused deps
+
 ## v0.7.2 - 2025-04-08
 ### Added
 * Short description about the best usage for each avaialable format
