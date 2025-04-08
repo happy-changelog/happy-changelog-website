@@ -4,7 +4,7 @@ import Link from "next/link";
 import type React from "react";
 
 import { Navigation } from "@/components/Navigation";
-import { PostHogProvider } from "@/components/psothog-providers";
+import { PostHogProvider } from "@/components/posthog-providers";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import "@/app/globals.css";
