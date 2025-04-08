@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.7.2 - 2025-04-08
+### Added
+* Short description about the best usage for each avaialable format
+
 ## v0.7.1 - 2025-03-31
 ### Fixed
 * Improved styling for upcoming features section
