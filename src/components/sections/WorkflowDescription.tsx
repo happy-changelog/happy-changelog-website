@@ -81,12 +81,14 @@ export function WorkflowDescription() {
                     <h4 className="font-medium text-lavender-600 dark:text-lavender-400">
                       Format 1: Details Element
                     </h4>
+                    <p className="italic text-muted-foreground text-sm">
+                      Use it for readability and to avoid cluttering the PR
+                      description.
+                    </p>
                     <div className="rounded-md bg-lavender-50 dark:bg-lavender-900/50 p-4 font-mono text-sm border border-lavender-200 dark:border-lavender-800">
                       <p className="mb-2 font-semibold text-lavender-800 dark:text-lavender-200">
-                        &lt;details&gt;
-                      </p>
-                      <p className="mb-2 font-semibold text-lavender-800 dark:text-lavender-200">
-                        &lt;summary&gt;Changelog: minor&lt;/summary&gt;
+                        &lt;details&gt;&lt;summary&gt;Changelog:
+                        minor&lt;/summary&gt;
                       </p>
                       <p className="mb-2 font-semibold text-lavender-700 dark:text-lavender-300">
                         ### Added
@@ -112,6 +114,10 @@ export function WorkflowDescription() {
                     <h4 className="font-medium text-lavender-600 dark:text-lavender-400">
                       Format 2: Command Syntax
                     </h4>
+                    <p className="italic text-muted-foreground text-sm">
+                      Best used as commit message when making direct changes to
+                      main branch.
+                    </p>
                     <div className="rounded-md bg-lavender-50 dark:bg-lavender-900/50 p-4 font-mono text-sm border border-lavender-200 dark:border-lavender-800">
                       <p className="mb-2 font-semibold text-lavender-800 dark:text-lavender-200">
                         /changelog minor
@@ -140,6 +146,10 @@ export function WorkflowDescription() {
                     <h4 className="font-medium text-lavender-600 dark:text-lavender-400">
                       Format 3: Markdown Syntax
                     </h4>
+                    <p className="italic text-muted-foreground text-sm">
+                      Best used if you want your changelog to be visible right
+                      away in the PR description.
+                    </p>
                     <div className="rounded-md bg-lavender-50 dark:bg-lavender-900/50 p-4 font-mono text-sm border border-lavender-200 dark:border-lavender-800">
                       <p className="mb-2 font-semibold text-lavender-800 dark:text-lavender-200">
                         ## Changelog minor

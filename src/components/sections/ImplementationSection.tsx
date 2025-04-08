@@ -96,10 +96,8 @@ export function ImplementationSection() {
                   Option 1: Details Element
                 </p>
                 <p className="mb-2 text-coral-800 dark:text-coral-200">
-                  &lt;details&gt;
-                </p>
-                <p className="mb-2 text-coral-800 dark:text-coral-200">
-                  &lt;summary&gt;Changelog: major|minor|patch&lt;/summary&gt;
+                  &lt;details&gt;&lt;summary&gt;Changelog:
+                  major|minor|patch&lt;/summary&gt;
                 </p>
                 <p className="mb-2 text-coral-600 dark:text-coral-400">
                   &lt;!-- Delete sections that are not relevant --&gt;
